@@ -1,0 +1,59 @@
+body {
+background-color: #1B1B1B;
+background-color: #EFEAD8;
+font-family: 'Roboto', sans-serif;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+hr {
+border-style: none;
+border-top-style: dotted;
+border-color: #000000;
+border-width: 5px;
+width: 60%
+}
+
+h1 {
+color: #000000;
+text-align: left;
+} 
+
+h2 {
+color: #000000;
+} 
+
+.headerDetails 
+
+{
+text-align: center;
+}
+
+table, td, th {
+border: 1px solid black;
+}
+
+th {
+background-color: #dcdcdc;
+}
+
+th, td {
+padding: 10px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+p {
+max-width: 150ch;
+}
+
+
+
+
+
+
