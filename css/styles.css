@@ -1,3 +1,11 @@
+/* selector {
+    property: value
+}
+    who {
+    what: how
+*/
+
+
 body {
 background-color: #1B1B1B;
 background-color: #EFEAD8;
@@ -51,7 +59,6 @@ border-collapse: collapse;
 p {
 max-width: 150ch;
 }
-
 
 
 
