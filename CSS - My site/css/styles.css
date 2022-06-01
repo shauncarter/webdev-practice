@@ -23,12 +23,31 @@ A html element can only have one ID */
 
 #intro {
     background-color: #406882;
-    border-radius: 10px;
+    border: solid 10px;
+    border-color: black;
+    height: 200px;
+    padding: 20px;
     text-align: center;
-    padding-bottom: 3px;
-    padding-top: 3px;
+    width: 200px;
 }
 
+#secondContainer {
+    background-color: gold;
+    border: solid 20px;
+    border-color: back;
+    height: 200px;
+    margin: 260px;
+    width: 200px;
+}
+
+#thirdContainer {
+    background-color: silver;
+    border: solid 10px;
+    border-color: black;
+    height: 200px;
+    margin-left: 500px;
+    width: 200px;
+}
 
 /********* pseudo class ********/
 /* pseudo classes are keywords added to selectors to define their style during a particular state
