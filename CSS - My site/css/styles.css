@@ -36,7 +36,7 @@ A html element can only have one ID */
     border: solid 20px;
     border-color: back;
     height: 200px;
-    margin: 260px;
+    margin-left: 260px;
     width: 200px;
 }
 
