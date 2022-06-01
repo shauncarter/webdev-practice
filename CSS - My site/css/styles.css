@@ -1,0 +1,35 @@
+/********* Tag selectors ********/
+
+/* tag selectors apply to any html "tag" element */
+
+body {
+    background-color: #B1D0E0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+
+/********* Class selectors ********/
+/* class selectors are defined by you and are activated when you call them in a html tag */
+
+
+/********* ID selectors ********/
+/* ID selectors are defined by you and are activated when you call them in a html tag
+An ID is unique and can only be used once
+A html element can only have one ID */
+
+#intro {
+    background-color: #406882;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+
+/********* pseudo class ********/
+/* pseudo classes are keywords added to selectors to define their style during a particular state
+for example, below the background color of images changes during the "hover" state (when you hover over an image) */
