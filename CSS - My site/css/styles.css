@@ -16,6 +16,31 @@ h1 {
 /* class selectors are defined by you and are activated when you call them in a html tag */
 
 
+.red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+  }
+  
+.blue {      
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+  }
+
+.yellow {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+  }
+
 /********* ID selectors ********/
 /* ID selectors are defined by you and are activated when you call them in a html tag
 An ID is unique and can only be used once
@@ -23,31 +48,12 @@ A html element can only have one ID */
 
 #intro {
     background-color: #406882;
-    border: solid 10px;
-    border-color: black;
-    height: 200px;
-    padding: 20px;
+    border: 10px;
+    border-radius: 10px;
     text-align: center;
-    width: 200px;
+    padding: 10px;
 }
 
-#secondContainer {
-    background-color: gold;
-    border: solid 20px;
-    border-color: back;
-    height: 200px;
-    margin-left: 260px;
-    width: 200px;
-}
-
-#thirdContainer {
-    background-color: silver;
-    border: solid 10px;
-    border-color: black;
-    height: 200px;
-    margin-left: 500px;
-    width: 200px;
-}
 
 /********* pseudo class ********/
 /* pseudo classes are keywords added to selectors to define their style during a particular state
