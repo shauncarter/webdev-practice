@@ -8,11 +8,9 @@
 
 body {
 background-color: #EFEAD8;
-font-family: 'Roboto', sans-serif;
-margin-left: 50px;
-margin-right: 50px;
-margin-top: 50px;
-margin-bottom: 50px;
+font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
+position: relative;
+margin: 0;
 }
 
 hr {
@@ -26,17 +24,14 @@ width: 60%
 h1 {
 color: #000000;
 text-align: left;
+margin: 20px;
 } 
 
 h2 {
 color: #000000;
+margin: 20px;
+
 } 
-
-.headerDetails 
-
-{
-text-align: center;
-}
 
 table, td, th {
 border: 1px solid black;
@@ -53,13 +48,30 @@ padding: 10px;
 table {
 width: 100%;
 border-collapse: collapse;
+margin: 20px;
 }
 
 p {
 max-width: 150ch;
+margin: 20px
 }
 
 
+/********* Class selectors ********/
+/* class selectors are defined by you and are activated when you call them in a html tag */
 
 
+.headerDetails {
+text-align: center;
+}
 
+
+.hobbies-container {
+    background-color: #406882;
+    color: white;
+}
+
+.work-experience-container {
+    background-color: #406882;
+    color: white;
+}
