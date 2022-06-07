@@ -52,14 +52,37 @@ width: 100%;
 border-collapse: collapse;
 }
 
+li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #04AA6D;
+  }
+
 
 /********* Class selectors ********/
 /* class selectors are defined by you and are activated when you call them in a html tag */
 
-.nav-bar-contact {
-    position: absolute;
-    top: 100px;
-    left: 300px;
+.nav-bar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B1D0E0;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: #EF9F9F;
+}
+
+.nav-bar-list-items {
+    float: left;
 }
 
 .header-details {
