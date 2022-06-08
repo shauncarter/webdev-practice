@@ -2,9 +2,10 @@
 
 /* tag selectors apply to any html "tag" element */
 
+
 body {
     margin: 0;
-    background-color: #B1D0E0;
+    background-color: azure;
     font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
     text-align: center;
 }
@@ -25,8 +26,19 @@ h3 {
     color: #11999E;
 }
 
+hr {
+  border-color: #5584AC;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;;
+  width: 30%
+  }
+
 a {
     color: #11999E;
+    text-decoration: none;
 }
 
 code {
@@ -44,27 +56,35 @@ code {
 }
 
 .bottom-cloud {
-  
-  left: 300px;
   bottom: 300px;
-
+  left: 300px;
   position: absolute;
 }
 
-.code-img {
-  background-color: #B1D0E0;
-  float: left;
-  margin-right: 30px;
-  width: 25%;
+.middle-container {
 }
 
-.circular {
-  border-radius: 10%;
+.footer-container {
+  background-color: #EAF6F6;
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+}
+
+.book-img {
+  float: left;
+  margin-right: 20px;
+  width: 15%;
+}
+
+.code-img {
+  float: right;
+  margin-left: 20px;
+  width: 15%;
 }
 
 .skill-row {
   line-height: 1.5;
-  margin: 30px auto 30px auto;
+  margin: 50px auto 50px auto;
   text-align: left;
   width: 50%;
 }
@@ -75,12 +95,18 @@ An ID is unique and can only be used once
 A html element can only have one ID */
 
 #intro {
-    background-color: #406882;
+    background-color: #EAF6F6;
     text-align: center;
     padding-top: 100px;
     position: relative;
 }
 
+#contact-me-button {
+  background-color: #11999E;
+  border-radius: 8px;
+  color: azure;
+  padding: 5px;
+}
 
 /********* pseudo class ********/
 /* pseudo classes are keywords added to selectors to define their style during a particular state
