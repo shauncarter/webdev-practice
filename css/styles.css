@@ -7,7 +7,7 @@
 
 
 body {
-background-color: #EFEAD8;
+background-color: #E8F9FD;
 font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
 position: relative;
 margin: 20px;
@@ -16,7 +16,7 @@ margin: 20px;
 hr {
 border-style: none;
 border-top-style: dotted;
-border-color: grey;
+border-color: #5584AC;
 border-width: 5px;
 width: 60%
 }
@@ -32,38 +32,34 @@ color: #000000;
 
 p {
 max-width: 150ch;
-margin: 20px
+}
+
+a {
+    color: #5584AC;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 table, td, th {
 border: 1px solid black;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+
 th {
-background-color: #dcdcdc;
+    background-color: #5584AC;
+    color: white;
 }
 
 th, td {
-padding: 10px;
+    padding: 10px;
 }
-
-table {
-width: 100%;
-border-collapse: collapse;
-}
-
-li a {
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #04AA6D;
-  }
-
 
 /********* Class selectors ********/
 /* class selectors are defined by you and are activated when you call them in a html tag */
@@ -82,7 +78,15 @@ li a:hover:not(.active) {
 }
 
 .nav-bar-list-items {
+    display: block;
     float: left;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-bar-list-items:hover:not(.active)    {
+    background-color: #04AA6D;
 }
 
 .header-details {
@@ -94,4 +98,7 @@ text-align: center;
 }
 
 .work-experience-container {
+}
+
+.code-image {
 }

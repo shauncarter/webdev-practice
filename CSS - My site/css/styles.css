@@ -10,9 +10,23 @@ body {
 }
 
 h1 {
-    color: antiquewhite;
-    margin-top: 0;
-    font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    color: #66BFBF;
+    line-height: 2;
+    margin-top: 20px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-weight: normal;
+    size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
 }
 
 code {
@@ -23,32 +37,6 @@ code {
 /********* Class selectors ********/
 /* class selectors are defined by you and are activated when you call them in a html tag */
 
-
-.red {
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    left: 208px;
-    bottom: 448px;
-  }
-  
-.blue {      
-    background-color: blue;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-  }
-
-.yellow {
-    background-color: yellow;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    left: 108px;
-    bottom: 548px;
-  }
-
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -56,9 +44,29 @@ code {
 }
 
 .bottom-cloud {
-  position: absolute;
+  
   left: 300px;
   bottom: 300px;
+
+  position: absolute;
+}
+
+.code-img {
+  background-color: #B1D0E0;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.circular {
+  border-radius: 10%;
+}
+
+.skill-row {
+  line-height: 1.5;
+  margin: 30px auto 30px auto;
+  text-align: left;
+  width: 50%;
 }
 
 /********* ID selectors ********/
@@ -68,8 +76,6 @@ A html element can only have one ID */
 
 #intro {
     background-color: #406882;
-    border: 10px;
-    border-radius: 10px;
     text-align: center;
     padding-top: 100px;
     position: relative;
